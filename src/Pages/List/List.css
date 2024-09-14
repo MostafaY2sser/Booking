@@ -1,0 +1,27 @@
+.listContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.listWripper{
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.listSearch{
+    flex: 1;
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 20px;
+    /* left: 20px; */
+}
+.listResult{
+    flex: 3;
+}
+.lsTiitle{
+    font-size: 20px;
+    color: #555;
+}

@@ -1,0 +1,37 @@
+.mailList{
+    width: 100%;
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0 ;
+    color: white ;
+}
+.mailListTitle{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.mailListDesc{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0 ;
+}
+.mailListSearch input{
+    padding: 15px 10px;
+    width: 300px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 10px;
+}
+.mailListSearch button{
+    padding: 15px  10px;
+    border-radius: 10px;
+    background-color: var(--second-color);
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}

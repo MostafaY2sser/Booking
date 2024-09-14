@@ -1,0 +1,44 @@
+.footer{
+    width : 100% ;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+.fLists{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 ;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.fListItem{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: var(--main-color);
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+}
+.fListItem::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0 ;
+    height: 2px;
+    background-color: var(--main-color);
+    transition: .3s;
+}
+.fListItem:hover::after{
+    width: 100%;
+}
+.fText{
+    width: 100%;
+    background-color: var(--main-color);
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
