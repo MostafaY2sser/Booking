@@ -55,12 +55,17 @@ const Header = ( { type } ) => {
 
 
 
+    // Go To Home Page :-------
+    const homeNavigate = useNavigate()
+
+
+
 //  JSX  :_____________________________________________________________________________________________
     return (
         <div className={ type === "list" ? "header listMode" : "header"}>
             <div className="headerContainer">
                 <div className="headerList">
-                    <div className="headerListItem  active">
+                    <div className="headerListItem  active" onClick={()=> homeNavigate("/")} >
                         <FontAwesomeIcon icon={faBed} />
                         <span>Stays</span>
                     </div>
